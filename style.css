@@ -6,10 +6,16 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  background-image: linear-gradient(to right, #f83600 0%, #f9d423);
+  background-image: linear-gradient(to right, #e00505 0%, #FFFFFF);
 }
 
+.header-logo{
+padding-top: 10px;
+}
+
+
 h1 {
+  margin-top: 0;
   color: #fff;
   letter-spacing: 5px;
   text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
@@ -29,7 +35,7 @@ h1 {
   height: 10px;
   width: 15px;
   border-radius: 10px;
-  transition: width 0.3 ease;
+  transition: width 0.3s ease;
 }
 
 .search-input,
@@ -46,7 +52,8 @@ h1 {
   top: 0;
   left: 0;
   border-radius: 10px;
-  transition: transform 0.3 ease;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 
